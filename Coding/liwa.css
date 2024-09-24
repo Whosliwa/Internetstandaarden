@@ -1,0 +1,66 @@
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+
+
+p { box-sizing: border-box;
+    background-color: #b49673;
+    color:rgb(54, 36, 36);
+    padding: 2em;
+    border-width: 4em 2em 1em 3em;
+    border-style: groove;
+    border-color: black;
+    
+}
+ h1 {
+    background-color: aliceblue;
+    color: rgb(17, 7, 27);
+    padding: 3 px;}
+
+div {
+    box-sizing: border-box;
+    background-color: rgb(132, 157, 157);
+    padding: 3em;
+    border-width: 2em;
+    border-style: dashed;
+    border-color: black;}
+
+    a {
+        transition: 500ms ease;
+    }
+a:hover{
+    background: blueviolet;
+    padding: 0.2em;
+    font-weight: 800;
+}
+
+    
+}
+
+
+a:active{ 
+    font-style: italic;
+}
+
+a:focus {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
